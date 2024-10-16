@@ -1,5 +1,5 @@
 runtime: python312
-threadsafe: true
+
 
 handlers:
 - url: /
