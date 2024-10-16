@@ -1,8 +1,7 @@
+app.yml 
 runtime: python312
 
-handlers:
-- url: /static
-  static_dir: static  # Assuming you may have static files in a folder named 'static'
 
+handlers:
 - url: /
-  script: auto  # Use 'auto' for automatic routing to your WSGI app
+  script: main.app
